@@ -529,4 +529,5 @@ modal.onclick = ()=> modal.style.display="none";
 def home():
     return render_template_string(HTML)
 
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run()
